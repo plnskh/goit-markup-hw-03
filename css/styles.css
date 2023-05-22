@@ -1,0 +1,192 @@
+:root {
+    --iris-color: #4D5AE5;
+    --navy-color: #2E2F42;
+    --ocean-color: #404BBF;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --navy-blue-modal-color: rgba(46, 47, 66, 0.4);
+    --grey-color: rgba(46, 47, 66, 0.7);
+    --white-color: #FFFFFF;
+    --dairy-color: #FCFCFC;
+    --standart-letter-spacing: 0.02em;
+    --standart-line-height: 1.5;
+    --text-font-size: 16px;
+    --item-title-size:20px; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.logo {
+    color: var(--iris-color);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-color {
+    color: var(--navy-color)
+}
+
+.nav-menu-link {
+    color: var(--navy-color);
+    font-style: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: var(--standart-letter-spacing);
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+    color: #404bbf
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+.clickbate {
+    background: var(--navy-color);
+}
+
+.clickbate-message {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: var(--standart-letter-spacing);
+    text-align: center;
+}
+
+.clickbate-button {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+    background: var(--iris-color);
+    letter-spacing: 0.04em;
+}
+
+.clickbate-button:hover,
+.clickbate-button:focus {
+    color: #ffffff;
+    background: var(--ocean-color);
+    color: #404bbf
+}
+
+.top-button {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
+    letter-spacing: 0.04em;
+
+}
+.top-button:hover,
+.top-button:focus {
+    color: #ffffff;
+    background: var(--ocean-color);
+}
+
+.features-name, 
+.person-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--navy-color);
+}
+
+.features-descr,
+.person-job,
+.service-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+
+.services-list,
+.team-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--navy-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+.service-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em
+}
+.team {
+    background: var(--cloud-color);
+}
+.team-list-item {
+    background-color: #ffffff;
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+.logo-color-footer {
+    color: var(--cloud-color);
+}
+
+.footer-descr {
+    color: var(--cloud-color);
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+}
+.footer {
+    background: var(--navy-color);
+}
